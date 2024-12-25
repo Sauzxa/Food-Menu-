@@ -9,7 +9,7 @@
   .title {
     color: #224F61;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
     letter-spacing: 0;
     line-height: 64px;
@@ -45,14 +45,14 @@
   }
   .item-description {
     color: #8C8C8C;
-    font-family: Almarai;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 20px;
   }
   .item-title {
     color: #555555;
-    font-family: Almarai;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0;
@@ -63,7 +63,7 @@
   }
   .item-price {
     color: #B45B35;
-    font-family: Almarai;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0;
