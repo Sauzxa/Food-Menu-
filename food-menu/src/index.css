@@ -8,7 +8,7 @@
   }
   .title {
     color: #224F61;
-    font-family: Almarai;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 0;
@@ -18,7 +18,7 @@
     height: 1px;
     width: 200px;
     border-radius: 10px;
-    border: 2px solid #B45B35;
+    border: 2px solid rgb(100, 100, 179);
   }
   .btn {
     color: black;
@@ -36,7 +36,7 @@
     line-height: 24px;
     border-radius: 11px;
     border: none;
-    background-color: #B45B35;
+    background-color: rgb(100, 100, 179)
   }
   .img-item {
     height: 180px;
@@ -70,7 +70,7 @@
     line-height: 20px;
   }
   .btn-search {
-    color: #B45B35;
+    color: rgb(100, 100, 179);
     border-radius: 3px solid #B45B35;
     border-radius: 8px;
     background-color: white;
@@ -78,10 +78,10 @@
   .btn-search:hover {
     color: white;
     border-radius: 3px solid white;
-    background-color: #B45B35;
+    background-color:rgb(100, 100, 179);
     border-radius: 8px;
   }
   .brand-color {
-    color: #B45B35;
+    color: rgb(100, 100, 179);
   }
   
