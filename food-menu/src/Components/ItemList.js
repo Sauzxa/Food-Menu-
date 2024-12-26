@@ -1,11 +1,13 @@
 import React from 'react'
 import { Row ,Col ,Card} from 'react-bootstrap'
+import Zoom from 'react-reveal/Zoom';
 const ItemList = ({itemsData}) => {
   return (
      <Row>
+      <Zoom>
 { itemsData.length > 0 ? (itemsData.map((item)=>{
     return (
-     <Col sm='12' className='mt-4 mb-2'  >
+      <Col sm='12' className='mt-4 mb-2'  >
      <Card className='d-flex flex-row '>
          <Card.Img variant="top" className='img-item' src={item.imgURL} />
          <Card.Body>
@@ -22,8 +24,11 @@ const ItemList = ({itemsData}) => {
            </Card.Text>
          </Card.Body>
        </Card>
-     </Col>  )
+     </Col> 
+      )
 })) : <h3>There is no categories</h3>  }
+
+      </Zoom>
 
 
            </Row>

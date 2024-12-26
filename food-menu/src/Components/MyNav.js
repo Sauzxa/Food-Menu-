@@ -5,7 +5,7 @@ const NavBar = ({ filterBySearch }) => {
   const [searchValue, setSearchValue] = useState('');
 
   const onSearch = (e) => {
-    e.preventDefault(); // Prevent default form submission
+    e.preventDefault(); // Prevent default form submission (No Reloadd)
     filterBySearch(searchValue);
     setSearchValue('')
   };

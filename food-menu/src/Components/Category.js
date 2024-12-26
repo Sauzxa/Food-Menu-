@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row ,Col} from 'react-bootstrap'
-
+import { Roll } from 'react-reveal'
 const Category = ({filterBycategory , AllCategories}) => {
   // to filter by category
   const onFilter =(cat)=>{
@@ -9,12 +9,15 @@ const Category = ({filterBycategory , AllCategories}) => {
   return (
    <Row my-2 mb-5>
     <Col sm="12" className='d-flex justify-content-center'>
+    <Roll>
          {AllCategories.length > 0 ? (AllCategories.map((cat)=>{
           return(
            <div>
            <button onClick={()=>{onFilter(cat)}} style={{border : "1px solid rgb(100, 100, 179)"}} className='btn mx-2'>{cat}</button>
       </div>)
          })) : <h4>There is no Category</h4>  }
+
+    </Roll>
        </Col>
    </Row>
   )
